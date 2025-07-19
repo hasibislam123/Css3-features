@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            margin: 6rem 12rem;
+            height: 20rem ; width: 36rem;
+            background-size: 100% 100%;
+            box-shadow: 20px 20px 10px gray;
+            animation: slider 15s linear infinite;
+            border-radius: 20px;
+        }
+
+        @keyframes slider {
+            0%{background-image: url(image/pic1.jpg);}
+            25%{background-image: url(image/pic2.jpg);}
+            50%{background-image: url(image/pic3.jpg);}
+            75%{ background-image: url(image/pic4.jpg);}
+            100%{background-image: url(image/pic5.jpg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="div"></div>
+</body>
+</html>
